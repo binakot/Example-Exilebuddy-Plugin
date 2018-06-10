@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplePlugin", "ExampleExilebuddyPlugin\ExamplePlugin.csproj", "{318F92AD-8A1F-432D-BD7C-48135AD84604}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplePlugin", "ExamplePlugin\ExamplePlugin.csproj", "{318F92AD-8A1F-432D-BD7C-48135AD84604}"
 	ProjectSection(ProjectDependencies) = postProject
 		{144E3AC5-3C73-44EE-8A46-A5858E19AEE2} = {144E3AC5-3C73-44EE-8A46-A5858E19AEE2}
 	EndProjectSection

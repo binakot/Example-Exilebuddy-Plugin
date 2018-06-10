@@ -7,8 +7,8 @@
     <ProjectGuid>{318F92AD-8A1F-432D-BD7C-48135AD84604}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ExampleExilebuddyPlugin</RootNamespace>
-    <AssemblyName>ExampleExilebuddyPlugin</AssemblyName>
+    <RootNamespace>ExamplePlugin</RootNamespace>
+    <AssemblyName>ExamplePlugin</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

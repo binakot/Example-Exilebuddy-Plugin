@@ -42,15 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\ExampleExilebuddyPlugin\ExamplePlugin.cs">
+    <None Include="..\ExamplePlugin\ExamplePlugin.cs">
       <Link>output\ExamplePlugin.cs</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="..\ExampleExilebuddyPlugin\ExamplePluginSettings.cs">
+    <None Include="..\ExamplePlugin\ExamplePluginSettings.cs">
       <Link>output\ExamplePluginSettings.cs</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="..\ExampleExilebuddyPlugin\GUI.xaml.cs">
+    <None Include="..\ExamplePlugin\GUI.xaml.cs">
       <Link>output\GUI.xaml.cs</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -60,9 +60,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <None Include="..\ExampleExilebuddyPlugin\GUI.xaml">
+    <None Include="..\ExamplePlugin\GUI.xaml">
       <Link>output\GUI.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
