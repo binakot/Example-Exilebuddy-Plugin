@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplePlugin", "ExampleExilebuddyPlugin\ExamplePlugin.csproj", "{318F92AD-8A1F-432D-BD7C-48135AD84604}"
+	ProjectSection(ProjectDependencies) = postProject
+		{144E3AC5-3C73-44EE-8A46-A5858E19AEE2} = {144E3AC5-3C73-44EE-8A46-A5858E19AEE2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{144E3AC5-3C73-44EE-8A46-A5858E19AEE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{318F92AD-8A1F-432D-BD7C-48135AD84604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318F92AD-8A1F-432D-BD7C-48135AD84604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318F92AD-8A1F-432D-BD7C-48135AD84604}.Debug|x86.ActiveCfg = Debug|x86
+		{318F92AD-8A1F-432D-BD7C-48135AD84604}.Debug|x86.Build.0 = Debug|x86
+		{318F92AD-8A1F-432D-BD7C-48135AD84604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318F92AD-8A1F-432D-BD7C-48135AD84604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318F92AD-8A1F-432D-BD7C-48135AD84604}.Release|x86.ActiveCfg = Release|x86
+		{318F92AD-8A1F-432D-BD7C-48135AD84604}.Release|x86.Build.0 = Release|x86
+		{144E3AC5-3C73-44EE-8A46-A5858E19AEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{144E3AC5-3C73-44EE-8A46-A5858E19AEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{144E3AC5-3C73-44EE-8A46-A5858E19AEE2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{144E3AC5-3C73-44EE-8A46-A5858E19AEE2}.Debug|x86.Build.0 = Debug|Any CPU
+		{144E3AC5-3C73-44EE-8A46-A5858E19AEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{144E3AC5-3C73-44EE-8A46-A5858E19AEE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{144E3AC5-3C73-44EE-8A46-A5858E19AEE2}.Release|x86.ActiveCfg = Release|Any CPU
+		{144E3AC5-3C73-44EE-8A46-A5858E19AEE2}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C750FD3C-B96A-4D6A-BBD1-683302CC4916}
+	EndGlobalSection
+EndGlobal
